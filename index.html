@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HW Day7</title>
+    <style>
+     
+
+      .forAll {
+        border: 2px dotted black;
+        height: 300px;
+        width: 200px;
+        display: inline-block;
+      }
+      .a {
+        background-color: pink;
+        display: inline-block;
+        border-top-right-radius: 200px;
+        border-bottom-left-radius: 200px;
+      }
+      .b {
+        background-color: purple;
+
+        border-top-left-radius: 200px;
+        border-bottom-right-radius: 200px;
+      }
+      .c {
+        background-color: greenyellow;
+
+        border-top-left-radius: 200px;
+        border-bottom-right-radius: 200px;
+      }
+      .d {
+        background-color: aquamarine;
+
+        border-bottom-left-radius: 200px;
+        border-top-right-radius: 200px;
+      }
+
+      #diamond-shield {
+        width: 0;
+        height: 0;
+        border: 50px solid transparent;
+        border-bottom: 20px solid darkslategrey;
+        position: relative;
+        top: -50px;
+      }
+      #diamond-shield:after {
+        content: "";
+        position: absolute;
+        left: -50px;
+        top: 20px;
+        width: 0;
+        height: 0;
+        border: 50px solid transparent;
+        border-top: 70px solid darkslategrey;
+      }
+      #diamond-shield {
+        margin-left: 150px;
+
+        width: 0;
+        height: 0;
+        border: 50px solid transparent;
+        border-bottom: 20px solid darkslategrey;
+        position: relative;
+        top: -50px;
+      }
+      #diamond-shield:after {
+        content: "";
+
+        position: absolute;
+        left: -50px;
+        top: 20px;
+        width: 0;
+        height: 0;
+        border: 50px solid transparent;
+        border-top: 100px solid darkslategrey;
+      }
+      /* Assingment1 completed here */
+
+      .x {
+        background-color: blueviolet;
+        height: 400px;
+        width: 400px;
+      }
+      .y {
+        background-color: yellow;
+        height: 400px;
+        width: 400px;
+        border-top-left-radius: 400px;
+        border-bottom-right-radius: 400px;
+      }
+
+      /* Assingment 2nd end here */
+
+      div.P {
+        background-color: tomato;
+        height: 400px;
+        width: 400px;
+      }
+     
+      div.forAll1 {
+        border-radius: 50%;
+      }
+      div.Q {
+        height: 300px;
+        width: 300px;
+        background-color: darkred;
+        margin: 50px auto;
+        border-top-right-radius: 300px;
+        border-bottom-left-radius: 300px;
+      }
+      /* Assingment 4th start here */
+      .tri {
+        width: 0px;
+        height: 0px;
+        background-color: black;
+        /* border-top: 10px solid red; */
+        border-right: 400px solid green;
+        border-bottom: 400px solid yellowgreen;
+        border-left: 400px solid purple transparent;
+      }
+      
+    </style>
+
+
+  </head>
+  <body>
+    <div>
+      <h1>1)</h1>
+      <div>
+        <div class="a forAll"></div>
+        <div class="b forAll"></div>
+      </div>
+      <div>
+        <div class="c forAll"></div>
+        <div class="d forAll"></div>
+      </div>
+
+
+
+      <div id="diamond-shield"></div>
+    </div>
+    <!-- Assingment 2nd start here -->
+    <div>
+      <h1>2)</h1>
+      <div class="x">
+        <div class="y"></div>
+      </div>
+    </div>
+    <!-- Assingment 3rd start here -->
+    
+      <h1>3)</h1>
+      <div>
+        <div class="P forAll forAll1">
+          <div class="Q"></div>
+        </div>
+    <!-- Assingment 4th start here -->
+<h1>4)</h1>
+    <div class="tri"></div>
+       
+  </body>
+</html>
